@@ -1,0 +1,15 @@
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="ResumeBuilderController">
+    <Label text="Select Resume Template" />
+    <Button text="Template 1" onAction="#selectTemplate1"/>
+    <Button text="Template 2" onAction="#selectTemplate2"/>
+    
+    <Label text="Personal Information" />
+    <TextField fx:id="nameField" promptText="Enter your name"/>
+    <TextField fx:id="emailField" promptText="Enter your email"/>
+    <TextField fx:id="phoneField" promptText="Enter your phone number"/>
+    
+    <Label text="Experience" />
+    <TextArea fx:id="experienceField" promptText="Enter your experience"/>
+    
+    <Button text="Generate Resume" onAction="#generateResume"/>
+</AnchorPane>
